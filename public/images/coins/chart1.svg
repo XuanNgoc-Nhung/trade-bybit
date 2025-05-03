@@ -1,0 +1,12 @@
+<svg width="50" height="20" viewBox="0 0 49 19" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="none">
+    <defs>
+        <linearGradient id="7colf7bquy9" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color: rgb(36, 174, 100); stop-opacity: 0.5;"></stop>
+            <stop offset="90%" style="stop-color: rgb(36, 174, 100); stop-opacity: 0;"></stop>
+        </linearGradient>
+    </defs>
+    <path
+        d="M-1 20L-1 5.8L0 5.8L2.17 5.56L4.34 6.63L6.51 7.5L8.68 8.33L10.85 7.8L13.02 6.22L15.19 6.38L17.36 5L19.53 8.9L21.7 18L23.87 13.89L26.04 12.18L28.21 12.59L30.38 11.54L32.55 11.67L34.72 11.27L36.89 8.72L39.06 9.53L41.23 11.45L43.4 11.16L45.57 9.75L47.74 8.25L49.91 7.69L51 21 Z"
+        fill="url(#7colf7bquy9)" stroke="rgba(24, 22, 55, .11)" stroke-width="1"></path>
+</svg>
