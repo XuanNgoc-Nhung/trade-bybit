@@ -1,16 +1,23 @@
 {
     "private": true,
-    "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite"
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
     },
     "devDependencies": {
-        "@tailwindcss/vite": "^4.0.0",
-        "axios": "^1.8.2",
-        "concurrently": "^9.0.1",
-        "laravel-vite-plugin": "^1.2.0",
-        "tailwindcss": "^4.0.0",
-        "vite": "^6.2.4"
+        "@vue/compiler-sfc": "^3.4.19",
+        "laravel-mix": "^6.0.49",
+        "vue-loader": "^17.0.0"
+    },
+    "dependencies": {
+        "element-plus": "^2.5.6",
+        "vue": "^3.4.19",
+        "@element-plus/icons-vue": "^2.3.1",
+        "axios": "^1.8.2"
     }
 }
