@@ -25,3 +25,8 @@ Route::group(['prefix' => 'dashboard'], function () {
         return view('admin.dang-nhap');
     });
 });
+Route::group(['prefix' => 'trade'], function () {
+    Route::get('/', function () {
+        return view('users.trade.trang-chu');
+    });
+});
